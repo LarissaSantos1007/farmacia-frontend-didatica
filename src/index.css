@@ -16,9 +16,9 @@
   --bg-card: #ffffff;
   --border: #e2e8f0;
   --border-focus: #38bdf8;
-  --radius-sm: 6px;
-  --radius-md: 10px;
-  --radius-lg: 16px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.08), 0 2px 4px -2px rgb(0 0 0 / 0.08);
   --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -352,7 +352,7 @@ input, select, textarea {
   width: 100%;
   overflow-x: auto;
   border: 1px solid var(--border);
-  border-radius: var(--radius-md);
+  border-radius: 0;
   background: white;
 }
 

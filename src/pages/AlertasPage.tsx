@@ -59,10 +59,7 @@ export const AlertasPage: React.FC<AlertasPageProps> = ({
         </div>
       )}
 
-      {/* Caixa de Explicação Didática */}
-      <div style={{ background: '#fef2f2', border: '1px solid #fecaca', padding: '1rem', borderRadius: '8px', marginBottom: '1.5rem', color: '#991b1b', fontSize: '0.875rem' }}>
-        <strong>⚠️ Verificação Automática do Estoque:</strong> Esta tela lê diretamente a rota <code>/produtos/alerta</code> do backend, alimentada pela <code>VIEW v_produtos_alerta</code>. Quando qualquer venda é finalizada e o saldo fica $\le$ estoque mínimo, o produto aparece aqui automaticamente para reposição.
-      </div>
+      {/* explicação removida a pedido do usuário */}
 
       <div className="table-responsive">
         <table className="table">

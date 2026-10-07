@@ -185,9 +185,7 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({
             </button>
           </div>
 
-          <div style={{ marginTop: '1.5rem', background: '#f8fafc', padding: '1rem', borderRadius: '8px', fontSize: '0.825rem', color: '#64748b', border: '1px solid var(--border)' }}>
-            <strong>💡 Dica Didática:</strong> Ao finalizar uma venda de remédios, a <em>trigger</em> automática do banco de dados (PostgreSQL) debita os itens do estoque e bloqueia transações caso o estoque seja insuficiente!
-          </div>
+          
         </div>
 
       </div>
